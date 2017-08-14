@@ -39,12 +39,10 @@ public class RESTService {
                .filter(x -> inLastMin(x.getTime())).collect(Collectors.toList());
       }
       catch (IOException e) {
-         // TODO Auto-generated catch block
          e.printStackTrace();
       }
 
       return frames;
-
    }
 
    @POST
