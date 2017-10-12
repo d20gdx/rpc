@@ -36,14 +36,17 @@ public class RESTService {
 			@QueryParam("spreadingfactor") String spreadingFactor, @QueryParam("key") String apiKey)
 			throws JSONException {
 
-		if (apiKey.equals("DFJJ-DFD-223-SD-SDSD")) {
+		if (apiKey.equals("c225d602-bcc8-4621-82c1-dd4d6ea579c8")) {
 			return getFrames(timeInMins, spreadingFactor);
 
+		} else {
+			
+			throw new UnauthorizedException();
 		}
-		return null;
 	}
 
 	@GET
+	
 	@Path("/frames")
 	@Produces(MediaType.APPLICATION_JSON)
 	public List<Frame> getFrames(@QueryParam("timeinmins") String timeInMins,
