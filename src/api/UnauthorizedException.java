@@ -1,4 +1,3 @@
-
 package api;
 
 import javax.ws.rs.*;
@@ -12,7 +11,7 @@ public class UnauthorizedException extends WebApplicationException
 
     public UnauthorizedException()
     {
-        this("Please authenticate.", "Name of your web service");
+        this("Please authenticate.", "Lora");
     }
 
     public UnauthorizedException(String message, String realm)
