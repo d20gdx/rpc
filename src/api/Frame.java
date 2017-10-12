@@ -1,14 +1,3 @@
-/*------------------------------------------------------------------------------
- *  The information contained herein is proprietary to and considered a
- *  trade secret of NGAHR Limited and shall not be reproduced,
- *  in whole or in part, without the written permission of NGAHR
- *  Limited. Within NGAHR, information must not be copied from this 
- *  document without the express permission of the Managing Director of 
- *  NGAHR.
- *
- *  Copyright NGAHR Limited 2017
-------------------------------------------------------------------------------*/
-
 package api;
 
 
